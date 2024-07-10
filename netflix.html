@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Inspired Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .profile {
+        position: relative;
+        z-index: 100;
+      }
+      .profile img {
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix Logo"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+      <div class="profile">
+        <img src="https://via.placeholder.com/30" alt="User Profile" />
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Welcome to Netflix</h1>
+          <p>Watch your favorite movies and TV shows.</p>
+          <button>Watch Now</button>
+        </div>
+      </section>
+      <section class="content">
+        <h2>Trending Now</h2>
+        <div class="slider">
+          <div class="slider-container">
+            <div class="slider-item">
+              <img
+                src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg"
+                alt="Stranger Things"
+              />
+              <p>Stranger Things</p>
+            </div>
+            <div class="slider-item">
+              <img src="2.jpeg" alt="The Witcher" />
+              <p>The Witcher</p>
+            </div>
+            <div class="slider-item">
+              <img
+                src="https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+                alt="Money Heist"
+              />
+              <p>Money Heist</p>
+            </div>
+            <div class="slider-item">
+              <img src="3.jpeg" alt="Breaking Bad" />
+              <p>Breaking Bad</p>
+            </div>
+            <div class="slider-item">
+              <img src="4.jpeg" alt="Black Mirror" />
+              <p>Black Mirror</p>
+            </div>
+            <div class="slider-item">
+              <img src="1.jpeg" alt="Ozark" />
+              <p>Ozark</p>
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Netflix, Inc.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
